@@ -1,0 +1,2 @@
+# vrrv_evento_imagen_20250226
+Practica2_Periodo2, Gamificacion
