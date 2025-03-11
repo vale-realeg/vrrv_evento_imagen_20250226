@@ -82,11 +82,11 @@ function startDrag(e){
     coordY = parseInt(targ.style.top);
     drag = true;
 
-    document.onmousemove = dragDiv;
+    document.onmousemove = function(e) { dragDiv(e); };
     return false;
 }
 
-function dragDiv(){
+function dragDiv(e){
     if(!drag) return;
     if(!e) var e = window.event;
 
