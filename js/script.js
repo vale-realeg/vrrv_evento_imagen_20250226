@@ -46,7 +46,8 @@ function baseOnLoad(){
     var map = document.getElementsByClassName("map")[0];
     let base = document.getElementsByClassName("base")[0];
     maxLeft = base.width - 50;
-    maxTop = base.heigth - 50;
+    maxTop = base.height - 50;
+
 
     for(let i = 0; i < 6; i++){
         let sensor = document.createElement("img");
